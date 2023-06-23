@@ -36,7 +36,7 @@ function App() {
       setImageLink(IMG3);
       setTimeout(() => {
         setImageLink(IMG4);
-      }, 2200);
+      }, 2100);
     }, 2000);
     }
   };
