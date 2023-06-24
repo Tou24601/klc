@@ -1,7 +1,18 @@
-.App {
+body {
   text-align: center;
+  margin: 0 auto;
 }
 
-img {
+.animatedImage {
   cursor: pointer;
+  height: 50vh;
+  margin-top: 5vh;
+}
+
+.nonvisible {
+  display: none;
+}
+
+.fontsize {
+  font-size: 5vh;
 }

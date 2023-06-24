@@ -29,15 +29,15 @@ function App() {
         setImageLink(IMG3);
         setTimeout(() => {
           setImageLink(IMG4);
-        }, 2000);
-      }, 2000);
+        }, 1000);
+      }, 3000);
     }
   };
   Howler.volume(1.0);
   return (
     <div className="App">
-      <img src={imageLink} alt="Caffe Maker" onClick={handleClick} />
-      <h1 style={imageLink === IMG4 ? {} : { display: "none" }}>
+      <img src={imageLink} alt="Caffe Maker" onClick={handleClick} className="animatedImage" />
+      <h1 className={imageLink === IMG4 ? "fontsize" : "nonvisible fontsize"}>
         Kawa gotowa. <br />
         Należy się 500 zł.
       </h1>
