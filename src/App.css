@@ -16,3 +16,9 @@ body {
 .fontsize {
   font-size: 5vh;
 }
+
+.button {
+  position: absolute;
+  bottom: 5vh;
+  right: 5vw;
+}

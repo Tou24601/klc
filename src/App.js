@@ -34,13 +34,18 @@ function App() {
     }
   };
   Howler.volume(1.0);
+
+  const makeFreshCup = () => {
+    setImageLink(IMG1);
+  }
   return (
     <div className="App">
-      <img src={imageLink} alt="Caffe Maker" onClick={handleClick} className="animatedImage" />
+      <img src={imageLink} alt="Dzisiaj kawy nie będzie" onClick={handleClick} className="animatedImage" />
       <h1 className={imageLink === IMG4 ? "fontsize" : "nonvisible fontsize"}>
         Kawa gotowa. <br />
         Należy się 500 zł.
       </h1>
+      <button onClick={makeFreshCup} className={imageLink === IMG4 ? "button" : "nonvisible"}>Jeszcze raz!</button>
     </div>
   );
 }
