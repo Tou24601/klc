@@ -43,7 +43,7 @@ function App() {
       <img src={imageLink} alt="Dzisiaj kawy nie będzie" onClick={handleClick} className="animatedImage" />
       <h1 className={imageLink === IMG4 ? "fontsize" : "nonvisible fontsize"}>
         Kawa gotowa. <br />
-        Należy się 500 zł.
+        Należy się 600 zł.
       </h1>
       <button onClick={makeFreshCup} className={imageLink === IMG4 ? "button" : "nonvisible"}>Jeszcze raz!</button>
     </div>
