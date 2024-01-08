@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <img src={imageLink} alt="Dzisiaj kawy nie będzie" onClick={handleClick} className="animatedImage" />
-      <h1 className={imageLink === IMG4 ? "fontsize" : "nonvisible fontsize"}>
+      <h1 className={imageLink === IMG4 ? "fontsize" : "nonvisible"}>
         Kawa gotowa. <br />
         Należy się 600 zł.
       </h1>
